@@ -6,7 +6,7 @@ import { styles } from "./style";
 const img = require("../../../assets/eu2.jpeg");
 const brakcet = require("../../../assets/bracket.png")
 
-export default function About() {
+export default function About(props) {
 
     const isMobile = useMediaQuery({
         query: '(max-width: 800px)'
@@ -14,7 +14,7 @@ export default function About() {
 
     if (isMobile) {
         return(
-            <View style={styles.containerMobileFirst}>
+            <View style={styles.containerMobileFirst} id={props.id}>
                 <View style={styles.containerMobile}>
                 <Image
                     style={styles.imageContainerMobile}
@@ -37,7 +37,7 @@ export default function About() {
     }
 
     return(
-        <View style={styles.container}>
+        <View style={styles.container} id={props.id}>
             <View style={styles.container1}>
                 <Image
                     style={styles.imageWeb}

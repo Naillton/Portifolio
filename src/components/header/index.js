@@ -3,7 +3,8 @@ import {
     View,
     Text,
     TouchableOpacity,
-    Image
+    Image,
+    Linking
 } from "react-native";
 import { useMediaQuery } from "react-responsive";
 import { styles } from "./style";
@@ -16,6 +17,21 @@ export default function Header () {
     const isMobile = useMediaQuery({
         query: '(max-width: 800px)'
     });
+
+    const aboutTouch = () => {
+        document.getElementById('about')
+        console.log(document.getElementById('about'))
+    }
+
+    const projectTouch = () => {
+        document.getElementById('project')
+        console.log(document.getElementById('project'))
+    }
+
+    const contactTouch = () => {
+        document.getElementById('contact')
+        console.log(document.getElementById('contact'))
+    }
 
     if (isMobile) {
         return(
@@ -40,17 +56,17 @@ export default function Header () {
                 Nailton Jr.
             </Text>
             <View style={styles.caintainerBtnWeb}>
-                <TouchableOpacity style={styles.btnWeb}>
+                <TouchableOpacity style={styles.btnWeb} onPress={() => aboutTouch()}>
                     <Text style={styles.textBtn}>
                         Sobre Mim
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.btnWeb}>
+                <TouchableOpacity style={styles.btnWeb} onPress={() => projectTouch()}>
                     <Text style={styles.textBtn}>
                         Projetos
                     </Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.btnWeb}>
+                <TouchableOpacity style={styles.btnWeb} onPress={() => contactTouch()}>
                     <Text style={styles.textBtn}>
                         Contatos
                     </Text>

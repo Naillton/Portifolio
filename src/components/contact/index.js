@@ -6,8 +6,9 @@ import { useMediaQuery } from "react-responsive";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 import { styles } from "./styles"
+import { contactId } from "../../data/lists";
 
-export default function Contact() {
+export default function Contact(props) {
 
     const isMobile = useMediaQuery({
         query: '(max-width: 800px)'
@@ -23,7 +24,7 @@ export default function Contact() {
 
     if (isMobile) {
         return(
-            <View style={styles.containerMobile}>
+            <View style={styles.containerMobile} id={props.id}>
                 <Text style={styles.textMobileTitle}>
                     Contatos
                 </Text>
@@ -52,7 +53,7 @@ export default function Contact() {
     }
 
     return(
-        <View style={styles.containerMobile}>
+        <View style={styles.containerMobile} id={props.id}>
             <Text style={styles.textMobileTitle}>
                 Contatos
             </Text>
