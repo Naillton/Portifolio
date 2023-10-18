@@ -3,9 +3,9 @@ import {
     View,
     Text,
     TouchableOpacity,
-    Image,
-    Linking
+    Image
 } from "react-native";
+import { A } from "@expo/html-elements";
 import { useMediaQuery } from "react-responsive";
 import { styles } from "./style";
 
@@ -56,21 +56,27 @@ export default function Header () {
                 Nailton Jr.
             </Text>
             <View style={styles.caintainerBtnWeb}>
-                <TouchableOpacity style={styles.btnWeb} onPress={() => aboutTouch()}>
-                    <Text style={styles.textBtn}>
-                        Sobre Mim
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.btnWeb} onPress={() => projectTouch()}>
-                    <Text style={styles.textBtn}>
-                        Projetos
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={styles.btnWeb} onPress={() => contactTouch()}>
-                    <Text style={styles.textBtn}>
-                        Contatos
-                    </Text>
-                </TouchableOpacity>
+                <A href="#about">
+                    <TouchableOpacity style={styles.btnWeb} onPress={() => aboutTouch()}>
+                            <Text style={styles.textBtn}>
+                                Sobre Mim
+                            </Text>
+                    </TouchableOpacity>
+                </A>
+                <A href="#project">
+                    <TouchableOpacity style={styles.btnWeb} onPress={() => projectTouch()}>
+                            <Text style={styles.textBtn}>
+                                Projetos
+                            </Text>
+                    </TouchableOpacity>
+                </A>
+                <A href="#contact">
+                    <TouchableOpacity style={styles.btnWeb} onPress={() => contactTouch()}>
+                        <Text style={styles.textBtn}>
+                            Contatos
+                        </Text>
+                    </TouchableOpacity>
+                </A>
             </View>
         </View>
     );

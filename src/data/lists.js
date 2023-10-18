@@ -1,15 +1,15 @@
 const apiQ = require('../../assets/web/webApiQuestion.jpg');
 const generatePass = require('../../assets/web/webGeneratePassword.jpg');
-const loginExpress = require('../../assets/web/webLoginExpress.jpg');
-const planetSearch = require('../../assets/web/webPlanetSearch.jpg');
+const loginExpress = require('../../assets/web/webLoginExpress.png');
+const planetSearch = require('../../assets/web/webPlanetSearch.png');
 const portifolio = require('../../assets/web/webPortifolio.jpg');
-const recipesApp = require('../../assets/web/webRecipesApp.jpg');
+const recipesApp = require('../../assets/web/webRecipesApp.png');
 
-const dLoginScreen = require('../../assets/mobile/desktopLoginScreen.jpg');
-const consultas = require('../../assets/mobile/mobileConsultas.jpg');
-const noteApp = require('../../assets/mobile/mobileNoteApp.jpg');
-const mPortifolio = require('../../assets/mobile/mobilePortifolio.jpg');
-const PPT = require('../../assets/mobile/mobilePPT.jpg');
+const dLoginScreen = require('../../assets/mobile/desktopLoginScreen.png');
+const consultas = require('../../assets/mobile/mobileConsultas.png');
+const noteApp = require('../../assets/mobile/mobileNoteApp.png');
+const mPortifolio = require('../../assets/mobile/mobilePortifolio.png');
+const PPT = require('../../assets/mobile/mobilePPT.png');
 
 export var listWeb = [
     { id: 1, title: 'Api Questions', image: apiQ},
