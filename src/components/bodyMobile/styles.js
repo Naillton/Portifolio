@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
     container: {
         width: "100%",
         marginVertical: 40,
-        backgroundColor: "#A3C9E2",
+        backgroundColor: "#a3aac2",
         alignItems: "center",
         justifyContent: "flex-start"
     },
@@ -20,8 +20,8 @@ export const styles = StyleSheet.create({
         flexDirection: "row",
         width: "100%",
         marginVertical: 20,
-        backgroundColor: "#a3aac2",
-        borderColor: "#a3aac2",
+        backgroundColor: "#A3C9E2",
+        borderColor: "#A3C9E2",
         borderWidth: 1,
         borderRadius: 30,
         alignItems: "center",
@@ -33,9 +33,9 @@ export const styles = StyleSheet.create({
     containerContent: {
         flexDirection: "row",
         width: "100%",
-        backgroundColor: "#a3aac2",
+        backgroundColor: "#A3C9E2",
         marginVertical: 20,
-        borderColor: "#a3aac2",
+        borderColor: "#A3C9E2",
         borderWidth: 1,
         borderRadius: 30,
         alignItems: "center"
@@ -44,9 +44,9 @@ export const styles = StyleSheet.create({
     containerContentWeb: {
         flexDirection: "row",
         width: "100%",
-        backgroundColor: "#a3aac2",
+        backgroundColor: "#A3C9E2",
         marginVertical: 20,
-        borderColor: "#a3aac2",
+        borderColor: "#A3C9E2",
         borderWidth: 1,
         borderRadius: 30,
         alignItems: "center",
