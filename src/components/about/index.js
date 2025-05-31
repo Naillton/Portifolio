@@ -47,12 +47,9 @@ Sou estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnolog
                 <View style={styles.containerContentWeb}>
                     <Text style={styles.titleText}>Sobre Mim</Text>
                     <Text style={styles.containerText}>
-                        Olá seja bem vindo!, me chamo Nailton tenho 24 anos e sou desenvolvedor,
-                        gosto muito de jogos - principalmente rpg - e sou apaixonado por programação e hacking,
-                        tenho muito interesse em desenvolver minhas habilidades ao máximo e no processo aprender coisas novas,
-                        em meus projetos uso diferentes linguagens de programação, gosto muito de programar para mobile com kotlin
-                        e react native e spring para backend. Olhe os meus projetos abaixo e entre em contato comigo, as informações
-                        estão na parte de contato logo abaixo dos projetos.
+                            Olá, meu nome é Nailton!
+
+Sou estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnologia, hacking ético e desenvolvimento de software. Tenho experiência em linguagens como C#, Java, Kotlin, Spring, ASP.NET, Python, React, React Native, HTML, CSS e JavaScript. Estou em busca de uma oportunidade para aplicar e expandir meus conhecimentos.
                     </Text>
                 </View>
             </View>
