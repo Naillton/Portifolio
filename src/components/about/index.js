@@ -49,7 +49,7 @@ Sou estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnolog
                     <Text style={styles.containerText}>
                             Olá, meu nome é Nailton!
 
-Sou estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnologia, hacking ético e desenvolvimento de software. Tenho experiência em linguagens como C#, Java, Kotlin, Spring, ASP.NET, Python, React, React Native, HTML, CSS e JavaScript. Estou em busca de uma oportunidade para aplicar e expandir meus conhecimentos.
+Sou estudante de Análise e Desenvolvimento de Sistemas com paixão por tecnologia, hacking ético e desenvolvimento de software. Tenho experiência em linguagens como C#, Java, Kotlin, Spring, ASP.NET, Python, React, React Native, HTML, CSS e JavaScript. Estou em busca de uma oportunidade para aplicar e expandir meus conhecimentos
                     </Text>
                 </View>
             </View>
